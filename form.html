@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Study Moov</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/media.css">
+</head>
+<body>
+    <main class="main">
+        <section class="hero">
+            <div class="container hero__container">
+                <h2 class="hero__title">
+                    Бесплатная консультация
+                    с академическим консультантом
+                </h2>
+                <div class="hero__wrapper">
+                    <article class="hero__article hero-article article">
+                        <h4 class="article__title">
+                            Во время консультации вы получите:
+                        </h4>
+                        <ol class="article__list article__grid">
+                            <li class="article__item">
+                                Представление о том, что может потребоваться от вас, чтобы поступить в университет своей мечты
+                            </li>
+                            <li class="article__item">
+                                Персонализированное и подробное предложение наших услуг в зависимости от ваших потребностей
+                            </li>
+                            <li class="article__item">
+                                Понимание, какие финансовые и временные обязательства потребуется от вас, чтобы поступить в университет вашей мечты
+                            </li>
+                            <li class="article__item">
+                                Обсудите силу вашего портфолио и заявки в целом
+                            </li>
+                        </ol>
+                    </article>
+                    <form action="#"
+                          method="post"
+                          id="consultation"
+                          class="hero__form hero-form form">
+                        <ul class="form__list">
+                            <li class="form__item">
+                                <fieldset class="form__fieldset form-fieldset fieldset form-fieldset__step1 form-step1">
+                                    <div class="form__caption form-caption form-caption-step-1">
+                                        <span class="form__slogan">
+                                            Шаг 1
+                                        </span>
+                                        <img
+                                         class="form-caption_chevron" 
+                                         src="./img/logos/logo-chevron.svg" 
+                                         alt="Chevron">
+                                    </div>
+                                    <div class="form__wrapper">
+                                        <h3 class="form__title">
+                                            Образование в Австрии
+                                        </h3>
+                                        <ul class="form__inputs form-inputs">
+                                            <li class="form-inputs__item">
+                                                <input
+                                                 id="user-name"
+                                                 class="form__input input"
+                                                 name="user-name"
+                                                 type="text"
+                                                 placeholder="Имя"
+                                                 required>
+                                            </li>
+                                            <li class="form-inputs__item">
+                                                <input
+                                                 lang="en"
+                                                 id="user-email"
+                                                 class="fieldset__input input"
+                                                 name="user-email"
+                                                 type="email"
+                                                 placeholder="Email"
+                                                 required>
+                                            </li>
+                                            <li class="form-inputs__item">
+                                                <input
+                                                 id="user-number"
+                                                 class="form__input input"
+                                                 name="user-number"
+                                                 type="tel"
+                                                 placeholder="+7 985 XXX-XX-XX"
+                                                 required>
+                                            </li>
+                                        </ul>
+                                        <p class="form__desc">
+                                            Для поступления вам понадобится только школьный аттестат/диплом и справка из ВУЗа. Все остальные документы мы оформим за вас!
+                                        </p>
+                                        <label
+                                         for="checkbox" 
+                                         class="form__checkbox">
+                                            <input
+                                             id="checkbox"
+                                             class="checkbox__input checkbox-input input"
+                                             name="user-agreement"
+                                             type="checkbox"
+                                             required>
+                                            <span
+                                             class="checkbox_custom-checkbox checkbox-custom-checkbox custom-checkbox">
+                                            </span>
+                                            Я согласен с условиями обработки песональных данных
+                                        </label>
+                                        <button
+                                         id="0" 
+                                         class="form__button form-button" 
+                                         type="button">
+                                            Далее
+                                        </button>
+                                    </div>
+                                </fieldset> 
+                            </li>
+                            <li class="form__item">
+                               <fieldset class="form__fieldset form-fieldset fieldset form-fieldset__step2 form-step2 rolled">
+                                    <div class="form__caption form-caption form-caption-step-2">
+                                        <span class="form__slogan form-step2__slogan">
+                                            Шаг 2
+                                        </span>
+                                        <img
+                                         class="form-caption_chevron" 
+                                         src="./img/logos/logo-chevron.svg" 
+                                         alt="Chevron">
+                                    </div>
+                                    <div class="form__wrapper">
+                                        <h3 class="form__title form-step2__title">
+                                            Выберите подходящий вариант:
+                                        </h3>
+                                        <ul class="form__person-types">
+                                            <li class="form__person-type form-person-type person-type">
+                                                <input
+                                                 id="schoolchild" 
+                                                 class="form__input person-type__input input"
+                                                 name="user-type"
+                                                 type="radio">
+                                                <label for="schoolchild" class="form__label form-label label person-type__label label-schoolchild">
+                                                     Я — школьник
+                                                </label>  
+                                            </li>
+                                            <li class="form__person-type form-person-type person-type">
+                                                <input
+                                                 id="student" 
+                                                 class="form__input person-type__input input"
+                                                 name="user-type"
+                                                 type="radio">
+                                                <label for="student" class="form__label form-label label person-type__label label-student">
+                                                     Я — студент
+                                                </label>  
+                                            </li>
+                                            <li class="form__person-type form-person-type person-type">
+                                                <input
+                                                 id="parent" 
+                                                 class="form__input person-type__input input"
+                                                 name="user-type"
+                                                 type="radio">
+                                                <label for="parent" class="form__label form-label label person-type__label label-parent">
+                                                    Я — родитель
+                                                </label> 
+                                            </li>
+                                        </ul>
+                                        <span class="form__interest">
+                                            Я заинтересован в:
+                                        </span>
+                                        <ul class="form__curriculars">
+                                            <li class="form__curricular form-curricular curricular">
+                                                <input
+                                                 id="higher-education"
+                                                 class="form__input curricular__input input"
+                                                 name="curricular"
+                                                 type="radio">
+                                                <label for="higher-education" class="form__label curricular__label label">
+                                                    <img
+                                                     src="./img/logos/logo-form-step2-higher-education.webp" 
+                                                     alt="Highter education" 
+                                                     class="curricular__img">
+                                                    <span>
+                                                        Высшем образовании
+                                                    </span>
+                                                </label>
+                                                </li>
+                                            <li class="form__curricular form-curricular curricular">
+                                                <input
+                                                 id="secondary-education"
+                                                 class="form__input curricular__input input"
+                                                 name="curricular"
+                                                 type="radio">
+                                                <label for="secondary-education" class="form__label curricular__label label">
+                                                    <img
+                                                     src="./img/logos/logo-form-step2-secondary-education.webp" 
+                                                     alt="Secondary education" 
+                                                     class="curricular__img">
+                                                    <span>
+                                                        Среднем образовании
+                                                    </span>
+                                                </label>
+                                            </li>
+                                            <li class="form__curricular form-curricular curricular">
+                                                <input
+                                                 id="language-curricular"
+                                                 class="form__input curricular__input input"
+                                                 name="curricular"
+                                                 type="radio">
+                                                <label for="language-curricular" class="form__label curricular__label label">
+                                                    <img
+                                                     src="./img/logos/logo-form-step2-language-curricular.webp" 
+                                                     alt="Language curricular" 
+                                                     class="curricular__img">
+                                                     <span>
+                                                        Языковых программах
+                                                     </span>
+                                                </label>
+                                            </li>
+                                            <li class="form__curricular form-curricular curricular">
+                                                <input
+                                                 id="university-prepare"
+                                                 class="form__input curricular__input input"
+                                                 name="curricular"
+                                                 type="radio">
+                                                <label for="university-prepare" class="form__label curricular__label label">
+                                                    <img
+                                                     src="./img/logos/logo-form-step2-prepare-for-university.webp" 
+                                                     alt="Prepare for university" 
+                                                     class="curricular__img">
+                                                     <span>
+                                                        Подготовке к университету
+                                                     </span>
+
+                                                </label>
+                                            </li>
+                                            <li class="form__curricular form-curricular curricular">
+                                                <input
+                                                 id="scholarship"
+                                                 class="form__input curricular__input input"
+                                                 name="curricular"
+                                                 type="radio">
+                                                <label for="scholarship" class="form__label curricular__label label">
+                                                    <img
+                                                     src="./img/logos/logo-form-step2-scholarship.webp" 
+                                                     alt="Scholarship" 
+                                                     class="curricular__img">
+                                                     <span>
+                                                        Стипендии на обучение
+                                                     </span>
+
+                                                </label>
+                                            </li>
+                                            <li class="form__curricular form-curricular curricular">
+                                                <input
+                                                 id="language-courses"
+                                                 class="form__input curricular__input input"
+                                                 name="curricular"
+                                                 type="radio">
+                                                <label for="language-courses" class="form__label curricular__label label">
+                                                    <img
+                                                     src="./img/logos/logo-form-step2-language-courses.webp" 
+                                                     alt="Language courses" 
+                                                     class="curricular__img">
+                                                     <span>
+                                                        Языковых
+                                                        курсах
+                                                     </span>
+                                                </label>
+                                            </li>
+                                        </ul>
+                                        <ul class="form__inputs form-step2__inputs">
+                                            <li class="form-inputs__item form-step2__item">
+                                                <input
+                                                 id="user-studing"
+                                                 class="form__input form-step2__input input"
+                                                 name="user-studing"
+                                                 type="text"
+                                                 placeholder="Где вы учитесь сейчас?">
+                                            </li>
+                                            <li class="form-inputs__item form-step2__item">
+                                                <input
+                                                 id="user-education-level"
+                                                 class="form__input form-step2__input input"
+                                                 name="user-education-level"
+                                                 type="text"
+                                                 placeholder="Уровень образования">
+                                            </li>
+                                            <li class="form-inputs__item form-step2__item">
+                                                <input
+                                                 id="user-language-level"
+                                                 class="form__input form-step2__input input"
+                                                 name="user-language-level"
+                                                 type="text"
+                                                 placeholder="Уровень языка">
+                                            </li>
+                                            <li class="form-inputs__item form-step2__item">
+                                                <input
+                                                 id="user-city"
+                                                 class="form__input form-step2__input input"
+                                                 name="user-city"
+                                                 type="text"
+                                                 placeholder="Город">
+                                            </li>
+                                        </ul>
+                                        <button
+                                         class="form__button form-step2__button" 
+                                         type="submit"
+                                         form="consultation">
+                                            Получить консультацию
+                                        </button>
+                                        <button
+                                         id="1" 
+                                         class="form__button_return form-button" 
+                                         type="button">
+                                            Вернуться на Шаг 1
+                                        </button>
+                                    </div>
+                                </fieldset>  
+                            </li>
+                        </ul>            
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+    <script src="./js/main.js"></script>
+</body>
+</html>

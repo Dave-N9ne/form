@@ -1,0 +1,13 @@
+:root {
+    --primary-bg-color: #FBFAF8;
+    --dark-text-color: #282828;
+    --light-gray-color: #a8a399;
+    --hover-and-focus-color: #0070ff7a;
+    --article-number-color: #e7e7e7;
+    --slogan-color: #958f81;
+    --check-and-radio-bg-color: #f6f5f3;
+    --checkbox-border-color: #555;
+    --custom-checkbox-border-color: #c9c3b6;
+    --label-border-color: #dedbd6;
+    --button-bg-blue-color: #1c58de;
+}
